@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: 100px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form input[type=email],
+form input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button[type=submit] {
+   background-color: #4285F4; /* Google blue */
+   color: white;
+   border-radius: 2px;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+}
+
+form button[type=submit]:hover {
+   background-color:#357AE8; /* Darker Google blue */
+}
