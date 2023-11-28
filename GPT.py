@@ -1,7 +1,6 @@
 import openai
 import os
 from Text2Web import processing
-OPENAI_YOUR_KEY = "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"
 def get_openai_api_key():
     api_key = input("Enter your OpenAI GPT-3.5 API key: ")
     openai.api_key = api_key
