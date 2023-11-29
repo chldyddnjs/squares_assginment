@@ -10,19 +10,19 @@
     (e.g) Prompt:"Make a login screen such as google style" convert to index.html 
   
 <h1>시작하기 (Getting Started):</h1>
-  1. git clone \n
-  2. python -m venv Text2Web \n
-  3. source ./Text2Web/Scripts/activate   (linux 기준) \n
-  4. pip install requirements.txt \n
+  <p>1. git clone </p>
+  <p>2. python -m venv Text2Web </p>
+  <p>3. source ./Text2Web/Scripts/activate   (linux 기준) </p>
+  <p>4. pip install requirements.txt </p>
   
 <h1> 사용 방법 (Usage): </h1>
-  1. [new Terminal] python app.py
-  2. [new Terminal] python GPT.py
-     <a>https://platform.openai.com/api-keys</a>
-     In the link, chatgpt apikey generation & copy and paste
-     After Input Your Terminal
-  3. Input Your Prompt.
-  4. Check GeneratedWeb Folder or flask Web page 
+  <p>1. [new Terminal] python app.py</p>
+  <p>2. [new Terminal] python GPT.py</p>
+     <p><a>https://platform.openai.com/api-keys</a></p>
+     <p>In the link, chatgpt apikey generation & copy and paste</p>
+     <p>After Input Your Terminal</p>
+  <p>3. Input Your Prompt.</p>
+  <p>4. Check GeneratedWeb Folder or flask Web page</p> 
 <h1> 설계 및 아키텍처 (Design and Architecture):</h1>
   프로젝트 구조
   프로젝트는 다음과 같은 구조를 가지고 있습니다.
