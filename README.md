@@ -66,5 +66,6 @@
   <p><tab>Prompt를 입력하면 자동으로 테스트 샘플이 생성됩니다.</tab></p>
   
 <h1> 버그 보고서 및 개선 제안 방법.</h1>
+  <p>backend, prontend 부분의 구현이 미흡합니다. 코드를 보완해서 수정해야합니다.</p>
   <p><tab>가끔 ChatGPT에서 환각현상을 보이고 결과물의 질이 그렇게 좋지 않습니다.</tab></p>
   <p><tab>Text2Web Task에 맞게 Prompt engineering과 FineTuning을 수행하고 추후에 RAG(retrieval-augmented generation)을 적용한다면 개선될 수 있을것 같습니다.</tab></p>
