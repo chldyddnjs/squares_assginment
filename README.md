@@ -63,21 +63,8 @@
       --templates/GeneratedWeb/ 폴더에 샘플을 (e.g sample000) 생성합니다.
   
 <h1> 테스트 (Testing): </h1>
-
-테스트 스위트 및 테스트 케이스에 대한 설명.
-로컬 개발 환경에서의 테스트 실행 방법.
-디버깅 및 문제 해결 (Debugging and Troubleshooting):
-
-주요 문제에 대한 디버깅 방법.
-자주 발생하는 문제에 대한 해결 방법.
-배포 (Deployment):
-
-프로젝트를 실제 환경에 배포하는 방법.
-프로덕션 환경에서의 설정 방법.
-<h1>기여 및 개선 (Contribution and Enhancement):</h1>
-
-<h1> 프로젝트에 기여하는 방법.</h1>
+  Prompt를 입력하면 자동으로 테스트 샘플이 생성됩니다.
+  
 <h1> 버그 보고서 및 개선 제안 방법.</h1>
-라이선스 (License):
-프로젝트의 라이선스 정보.
-이러한 섹션들은 프로젝트의 특성과 요구에 따라 조절될 수 있습니다. 일부 프로젝트에서는 문서화 도구를 사용하여 자동으로 문서를 생성하기도 합니다.
+가끔 ChatGPT에서 환각현상을 보이고 결과물의 질이 그렇게 좋지 않습니다.
+Text2Web Task에 맞게 Prompt engineering과 FineTuning을 수행하고 추후에 RAG(retrieval-augmented generation)을 적용한다면 개선될 수 있을것 같습니다.
