@@ -1,9 +1,9 @@
 <h1>소개 (Introduction):</h1>
 
   <p> 프로젝트의 개요와 목적에 대한 설명.</p>
-    스퀘어스의 요구사항 1번 CASE를 선택하여 구현\n
-      --Text 입력 또는 선언\n
-      --HTML로 변환\n
+    스퀘어스의 요구사항 1번 CASE를 선택하여 구현
+      --Text 입력 또는 선언
+      --HTML로 변환
   
   <p>프로젝트의 주요 기능과 장점을 간략하게 소개.</p>
     ChatGPT api를 사용했으며 prompt를 입력하게 될 경우 HTML코드로 변환하는 기능을 가지고 있습니다.
@@ -23,17 +23,45 @@
      After Input Your Terminal
   3. Input Your Prompt.
   4. Check GeneratedWeb Folder or flask Web page 
-<h1>주요 기능에 대한 사용 방법과 예제.</h1>
-  명령어 라인 인터페이스 (CLI) 또는 API를 사용한 예제.
-  코드 구조 및 설명 (Code Structure and Documentation):
-  
-  프로젝트의 디렉토리 및 파일 구조에 대한 설명.
-  각 파일 또는 모듈의 주요 기능에 대한 설명.
-  코드의 중요한 부분에 대한 주석.
 <h1> 설계 및 아키텍처 (Design and Architecture):</h1>
+  프로젝트 구조
+  프로젝트는 다음과 같은 구조를 가지고 있습니다.
 
-프로젝트의 디자인 및 아키텍처에 대한 개괄적인 설명.
-사용된 디자인 패턴 및 아키텍처의 특징.
+  Text2Web_demo/
+    --app.py
+    --GPT.py
+      --get_openai_api_key
+      --chat_with_gpt3
+    --Text2Web.py
+      --processing.py
+    --chatlog.txt
+    templates/
+      GeneratedWeb/
+        sample000/
+          --index.html
+          --styles.css
+          --script.js
+        sample001/
+          --index.html
+          --styles.css
+          --script.js
+        ...
+      --index.html
+      --style.css
+ 
+기능 명세
+  GPT.py
+    get_openai_api_key()
+      --사용자에게 OpenAI GPT-3.5 API 키를 입력받아 설정합니다.
+    chat_with_gpt3(prompt: str) -> str
+      --사용자 입력을 받아 GPT-3.5-turbo 모델을 사용하여 응답을 생성합니다.
+      --prompt 결과를 chatlog에 저장합니다.
+    
+  Text2Web.py
+    processing()
+      --chatlog.txt 파일에서 생성된 텍스트를 읽어와 HTML, CSS, JavaScript 파일로 변환합니다.
+      --templates/GeneratedWeb/ 폴더에 샘플을 (e.g sample000) 생성합니다.
+  
 <h1> 테스트 (Testing): </h1>
 
 테스트 스위트 및 테스트 케이스에 대한 설명.
