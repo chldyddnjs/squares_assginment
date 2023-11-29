@@ -10,10 +10,10 @@
     (e.g) Prompt:"Make a login screen such as google style" convert to index.html 
   
 <h1>시작하기 (Getting Started):</h1>
-  1. git clone
-  2. python -m venv Text2Web
-  3. source ./Text2Web/Scripts/activate   (linux 기준)
-  4. pip install requirements.txt
+  1. git clone \n
+  2. python -m venv Text2Web \n
+  3. source ./Text2Web/Scripts/activate   (linux 기준) \n
+  4. pip install requirements.txt \n
   
 <h1> 사용 방법 (Usage): </h1>
   1. [new Terminal] python app.py
