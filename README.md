@@ -18,11 +18,11 @@
 <h1> 사용 방법 (Usage): </h1>
   <p>1. [new Terminal] python app.py</p>
   <p>2. [new Terminal] python GPT.py</p>
-     <p><tab><a>https://platform.openai.com/api-keys</a></tab></p>
-     <p><tab>In the link, chatgpt apikey generation & copy and paste</tab></p>
-     <p><tab>After Input Your Terminal</tab></p>
-  <p>3. Input Your Prompt.</p>
-  <p>4. Check GeneratedWeb Folder or flask Web page</p> 
+     <p><tab>3.<a>https://platform.openai.com/api-keys</a></tab></p>
+     <p><tab>4.In the link, chatgpt apikey generation & copy and paste</tab></p>
+     <p><tab>5.After Input Your Terminal</tab></p>
+  <p>6. Input Your Prompt.</p>
+  <p>7. Check GeneratedWeb Folder or flask Web page</p> 
 <h1> 설계 및 아키텍처 (Design and Architecture):</h1>
   <p>프로젝트 구조</p>
   <p>프로젝트는 다음과 같은 구조를 가지고 있습니다.</p>
